@@ -1,8 +1,10 @@
-Project Overview
+# ASAPP QA Automation Challenge
+
+## 🚀 Project Overview
 
 This project implements automated end-to-end tests for the ASAPP QA Automation Challenge. Using Cypress, we validate critical user flows in a sample web application, including user registration, login, shopping cart interactions, and logout functionality.
 
-Prerequisites
+## ✏️ Prerequisites
 
 To set up and run this project, ensure you have the following installed:
 
@@ -10,7 +12,7 @@ To set up and run this project, ensure you have the following installed:
 
 -Docker 
 
-Project Setup
+## 📁 Project Setup
 
 1. Clone the Repository
 
