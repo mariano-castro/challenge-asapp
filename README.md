@@ -14,19 +14,19 @@ To set up and run this project, ensure you have the following installed:
 
 ## 📁 Project Setup
 
-1. Clone the Repository
+**1. Clone the Repository**
 
 Clone the source code for the web application and navigate to the directory:
 
-git clone https://github.com/mariano-castro/challenge-asapp.git
+`git clone https://github.com/mariano-castro/challenge-asapp.git`
 
-2. Start the Web Application
+**2. Start the Web Application**
 
 The web application is provided in a Docker setup. Run the following commands to build and start the services:
 
-docker build ./src/api -t asapp-qa-challenge-api
-docker build ./src/ui -t asapp-qa-challenge-ui
-docker-compose up -d
+`docker build ./src/api -t asapp-qa-challenge-api`
+`docker build ./src/ui -t asapp-qa-challenge-ui`
+`docker-compose up -d`
 
 Verify the following URLs:
 
@@ -34,18 +34,18 @@ UI: http://localhost:3000
 
 API Docs: http://localhost:5000/api/docs
 
-3. Initialize the Test Environment
+**3. Initialize the Test Environment**
 
 Install dependencies:
 
-npm i
+`npm install`
 
-4. Run Tests
+**4. Run Tests**
 
 Execute all tests in headless mode:
 
-npx cypress run
+`npx cypress run`
 
 Alternatively, launch the Cypress Test Runner for an interactive experience:
 
-npx cypress open
+`npx cypress open`
