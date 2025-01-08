@@ -8,9 +8,9 @@ This project implements automated end-to-end tests for the ASAPP QA Automation C
 
 To set up and run this project, ensure you have the following installed:
 
--Node.js 
+_-Node.js_
 
--Docker 
+_-Docker_
 
 ## 📁 Project Setup
 
@@ -25,7 +25,9 @@ Clone the source code for the web application and navigate to the directory:
 The web application is provided in a Docker setup. Run the following commands to build and start the services:
 
 `docker build ./src/api -t asapp-qa-challenge-api`
+
 `docker build ./src/ui -t asapp-qa-challenge-ui`
+
 `docker-compose up -d`
 
 Verify the following URLs:
