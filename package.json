@@ -1,0 +1,23 @@
+{
+  "name": "challenge-asapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariano-castro/challenge-asapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariano-castro/challenge-asapp/issues"
+  },
+  "homepage": "https://github.com/mariano-castro/challenge-asapp#readme",
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
