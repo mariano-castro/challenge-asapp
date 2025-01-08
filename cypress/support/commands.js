@@ -23,3 +23,17 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add("loginSuccesful", (username, password) => {
+  const apiUrl = Cypress.env("apiUrl")
+  cy.request({
+    method: "POST",
+    url: `${apiUrl}/users/login`,
+    body: {
+      username: username,
+      password: password,
+    },
+  }).then((response) => {
+    expect(response.status).to.eq(200)
+    expect(response.body).to.equal("Login succeeded.")
+  })
+})

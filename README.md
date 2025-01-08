@@ -8,9 +8,9 @@ This project implements automated end-to-end tests for the ASAPP QA Automation C
 
 To set up and run this project, ensure you have the following installed:
 
-_-Node.js_
+_- Node.js_
 
-_-Docker_
+_- Docker_
 
 ## 📁 Project Setup
 

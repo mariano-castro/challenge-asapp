@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mariano-castro/challenge-asapp#readme",
   "devDependencies": {
+    "@faker-js/faker": "^9.3.0",
     "cypress": "^13.17.0"
   }
 }
